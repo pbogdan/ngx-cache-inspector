@@ -57,7 +57,7 @@ $ stack exec -- which nci
 $ nci FILE [--dump-body]
 ```
 
-The optional `--dump-body` flag can be used to dump the cached response body stored in the file.
+The optional `--dump-body` flag can be used to dump the cached response body stored in the file. `nci` will attempt to decompress the body, if that fails it will dump the raw result.
 
 ### Searching for cache files with matching keys.
 
