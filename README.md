@@ -51,11 +51,21 @@ $ stack exec -- which nci
 
 ## Usage
 
+### Inspecting a single file
+
 ```
 $ nci FILE [--dump-body]
 ```
 
-where the optional `--dump-body` flag can be used to dump the cached response body stored in the file.
+The optional `--dump-body` flag can be used to dump the cached response body stored in the file.
+
+### Searching for cache files with matching keys.
+
+```
+$ nci find PATH NEEDLE
+```
+
+PATH specifies the location of the cache directory, and NEEDLE is the string to search for within the key.
 
 ## License
 

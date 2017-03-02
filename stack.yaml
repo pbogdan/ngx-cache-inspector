@@ -41,11 +41,18 @@ packages:
     git: https://github.com/pbogdan/ngx-cache-purge
     commit: b73e51e1a06eec2408de11a081fb14849dd92daa
   extra-dep: true
+- location:
+    git: https://github.com/pbogdan/pipes-files
+    commit: a425df705b975c88bd4818ed12bfa2c293f03f57
+  extra-dep: true
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps:
 - protolude-lifted-0.1.0.1
+- hierarchy-0.3.1.2
+- posix-paths-0.2.1.1
+- unix-2.7.2.0
 # Override default flag values for local packages and extra-deps
 flags: {}
 
