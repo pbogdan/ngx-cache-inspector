@@ -17,6 +17,7 @@ import           Pipes
 import qualified Pipes.Files as PF
 import qualified Pipes.Prelude as P
 import           Pipes.Safe (runSafeT)
+import           System.FilePath.Posix
 
 data Options =
   Options Command
@@ -110,5 +111,5 @@ find p needle =
   forever
     (do (path, header) <- await
         unless (null $ indices (toS needle) (cacheHeaderKey header)) $
-          yield path) >->
+          yield (normalise path)) >->
   P.stdoutLn
