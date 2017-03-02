@@ -31,4 +31,4 @@ deploy:
     secure: pYcDMiKnb/gwF6igORSh7Kk7aY6GGDevN5v38/4euy93GRJ2xb1yvWM/eg1Rro6/tTIh6LdCru6tAhuL8d4mOwxDhfYw4rvT9Nx4yW+QS5lXpQkX2+nFbHcFSehgRSqRUQ09vsIBvK4XJpMkcog1BmmHTV+xe9drSvzEcfH7/AafHmdB03iXkJTs28VqSxwUSzd/wve3hMgAvRos/jOmnefZt+YBz6v6+87FFXWQlBMS+76akvj/UWvme/CGIHjfKbQSpO6tR1PFb6Vm8B41JiDEyDKxZvOKDWWAl9L9j7SlKvW99V4nD9g+/QasN/8Eb4Oi0jqup/i7cQqvVa6CwjJTkAkHVCb7kMqYpiPubepItgtO6GBZGyXib04AoKH0eefaFoRaY2+CkUlWbZPTenAfcVmS/+2eimRTDhRtWkP604i0+uN0Y5Z/cPQWUOm8hVMtgTk8QoOw+8gYnwPztwg+kkxxfefdxbzP5HugDkK2Gd8ZMP9oNTmv8lFq/W++wO1FGASHoTxT2fiDJ+b9eNymbg4HZ5h/1C+mL8/tUF50dWoLgk20jZOcFvSYAb/CZmQ/ZEzwN+ehskbzKCnEsfEYVkmrnr5xZ9pg0xJF7T8I4FCAIzgIfdItcw1HL3JipKCfCYXFngxcJM7UBi61grhCt2Gfc6MqJEE6YvIKHIE=
   file: to-travis/nci.bz2
   on:
-    repo: pbogdan/ngx-cache-inspector
+    tags: true
