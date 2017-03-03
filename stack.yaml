@@ -39,7 +39,7 @@ packages:
 - '.'
 - location:
     git: https://github.com/pbogdan/ngx-cache-purge
-    commit: 1d00b7b8b05c6a14c8752bab6e1a1509b0f236d2
+    commit: f103962702c50789ab3ce9981c44d123e0dc1ae1
   extra-dep: true
 - location:
     git: https://github.com/pbogdan/pipes-files
