@@ -8,6 +8,7 @@ addons:
   apt:
     packages:
     - libgmp-dev
+    - libbsd-dev
 
 before_install:
 - mkdir -p ~/.local/bin

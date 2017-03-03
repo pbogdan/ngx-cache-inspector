@@ -52,7 +52,7 @@ extra-deps:
 - protolude-lifted-0.1.0.1
 - hierarchy-0.3.1.2
 - posix-paths-0.2.1.1
-- unix-2.7.2.0
+
 # Override default flag values for local packages and extra-deps
 flags: {}
 
