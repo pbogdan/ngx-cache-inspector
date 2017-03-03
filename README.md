@@ -1,6 +1,6 @@
 # ngx-cache-inspector
 
-Inspect headers and bodies of nginx's cache files. Currently only cache file marked as version 3 are supported.
+Inspect headers and bodies of nginx's cache files. Currently cache files marked as version 3 and 5 are supported.
 
 Example output of inspecting a cache file:
 
@@ -54,7 +54,7 @@ $ stack exec -- which nci
 ### Inspecting a single file
 
 ```
-$ nci FILE [--dump-body]
+$ nci inspect FILE [--dump-body]
 ```
 
 The optional `--dump-body` flag can be used to dump the cached response body stored in the file. `nci` will attempt to decompress the body, if that fails it will dump the raw result.
