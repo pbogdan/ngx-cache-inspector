@@ -1,5 +1,5 @@
 name: ngx-cache-inspector
-version: 0.2.0.0
+version: 0.3.0.0
 cabal-version: >=1.10
 build-type: Simple
 license: BSD3
@@ -51,7 +51,7 @@ executable nci
         base >=4.9.0.0 && <4.10,
         optparse-applicative >=0.12.1.0 && <0.13,
         protolude-lifted >=0.1.0.0 && <0.2,
-        ngx-cache-inspector >=0.2.0.0 && <0.3
+        ngx-cache-inspector >=0.3.0.0 && <0.4
     default-language: Haskell2010
     default-extensions: OverloadedStrings NoImplicitPrelude
     hs-source-dirs: app
